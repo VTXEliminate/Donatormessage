@@ -7,7 +7,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 public final class Donatormessage extends JavaPlugin {
     
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args){
-    	if(cmd.getName().equalsIgnoreCase("donate")){ // If the player typed /basic then do the following...
+    	if(cmd.getName().equalsIgnoreCase("donate")){ // /donate activates a line of text.
     		sender.sendMessage("You can donate at: tinycash.buycraft.net");
     		return true;
     	} //If this has happened the function will return true. 
