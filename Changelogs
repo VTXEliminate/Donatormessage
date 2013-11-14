@@ -8,3 +8,8 @@ Send a simple donatormessage when a player uses a command (custom item on 9th sl
 V 1.0
 Added /donate command.
 Added /donor command.
+Added /buy command.
+Added /buyrank command.
+Added /website command.
+
+Customizable
